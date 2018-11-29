@@ -25,7 +25,7 @@ import "semantic-ui-css/semantic.min.css";
 //<Router basename={"/officeplus"}>
 
 ReactDOM.render(
-  <Router>
+  <Router basename={"/officeplus"}>
     <App />
   </Router>,
   document.getElementById("root")
