@@ -87,6 +87,7 @@ class NavBar extends Component {
                 <NavLink to="/profile">Profile</NavLink>
               </NavItem>
 
+              {/*
               <NavItem
                 name="contact"
                 active={activeNav === "contact"}
@@ -94,6 +95,7 @@ class NavBar extends Component {
               >
                 <NavLink to="/contact">Contact US</NavLink>
               </NavItem>
+              */}
             </NavbarNav>
           </Collapse>
         </Container>

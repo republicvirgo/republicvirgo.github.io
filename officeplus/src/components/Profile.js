@@ -2,22 +2,15 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import opCp7 from "../assets/images/officeplusCP/7.jpg";
-import profilebanner from "../assets/images/profilebanner.jpg";
+import profilebanner from "../assets/images/officepluscp.png";
 
 import {
-  // /Button,
   Container,
   Divider,
   Grid,
   Header,
-  //Icon,
   Image,
-  //List,
-  //Menu,
-  //Responsive,
   Segment
-  //Sidebar,
-  //Visibility
 } from "semantic-ui-react";
 
 class Profile extends Component {

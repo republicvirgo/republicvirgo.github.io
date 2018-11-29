@@ -6,9 +6,8 @@ import NavBar from "./NavBar";
 import Home from "./Home";
 import Service from "./Service";
 import Profile from "./Profile";
-//import OurLocation from "./Location";
-
-//import ContactUs from "./ContactUs";
+import Locations from "./Locations";
+//import Contact from "./Contact";
 
 import FooterBar from "./FooterBar";
 
@@ -31,9 +30,8 @@ class App extends Component {
             <Route path="/service" component={Service} />
 
             <Route path="/profile" component={Profile} />
-            {/*<Route path="/our-location" component={OurLocation} />
-            <Route path="/contact-us" component={ContactUs} />
-            */}
+            <Route path="/location" component={Locations} />
+            {/*<Route path="/contact" component={Contact} />*/}
           </Switch>
         </div>
 

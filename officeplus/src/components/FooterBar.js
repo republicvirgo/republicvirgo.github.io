@@ -48,7 +48,7 @@ class FooterBar extends Component {
                         icon={faMapMarkerAlt}
                         className="footerIcon"
                       />{" "}
-                      Jl. S.Parman - Jakarta Barat
+                      Jl. Letjen S.Parman - Jakarta Barat
                     </li>
                     <li className="list-unstyled">
                       <FontAwesomeIcon
