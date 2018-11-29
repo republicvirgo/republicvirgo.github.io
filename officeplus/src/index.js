@@ -22,15 +22,7 @@ import "mdbreact/dist/css/mdb.css";
 
 import "semantic-ui-css/semantic.min.css";
 
-/*const Root = () => (
-  <Router>
-    <Switch>
-      <Route exact path="/" component={App} />
-    </Switch>
-  </Router>
-);
-
-ReactDOM.render(<Root />, document.getElementById("root"));*/
+//<Router basename={"/officeplus"}>
 
 ReactDOM.render(
   <Router>

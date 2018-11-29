@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 import { Accordion, Icon } from "semantic-ui-react";
 
-import { faqData } from "./alldata/AllData";
+//import { faqData } from "./alldata/AllData";
+import faqData from "./alldata/faq.json";
 
 class Faq extends Component {
   state = { activeIndex: 0 };
@@ -40,14 +41,14 @@ class Faq extends Component {
                       style={{ fontSize: "1.3em" }}
                     >
                       <Icon name="dropdown" />
-                      {faq.q}
+                      {faq.question}
                     </Accordion.Title>
 
                     <Accordion.Content active={activeIndex === i}>
                       <div
                         style={{ fontSize: "1.3em" }}
                         dangerouslySetInnerHTML={{
-                          __html: faq.a
+                          __html: faq.answer
                         }}
                       />
                     </Accordion.Content>

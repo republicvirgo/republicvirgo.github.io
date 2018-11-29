@@ -1,0 +1,124 @@
+[
+  {
+    "1542341186647": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T04:06:26.647Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T10:08:54.380Z"
+      },
+      "active": true,
+      "id": 1542341186647,
+      "left": true,
+      "linkTo": "/services/virtual-office",
+      "photo": [1543485521938],
+      "productCategory": "virtual office",
+      "productCategoryDescription": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p>\n"
+    },
+    "1542341219507": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T04:06:59.507Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T10:08:35.278Z"
+      },
+      "active": true,
+      "id": 1542341219507,
+      "left": true,
+      "linkTo": "/services/coworking-space",
+      "photo": [1543485487844],
+      "productCategory": "coworking space",
+      "productCategoryDescription": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p>\n"
+    },
+    "1542341257152": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T04:07:37.152Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T10:07:48.740Z"
+      },
+      "active": true,
+      "id": 1542341257152,
+      "left": true,
+      "linkTo": "/services/private-office",
+      "photo": [1543485451925],
+      "productCategory": "private office",
+      "productCategoryDescription": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p>\n"
+    },
+    "1542341273805": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T04:07:53.805Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T10:07:20.161Z"
+      },
+      "active": true,
+      "id": 1542341273805,
+      "left": false,
+      "linkTo": "/services/meeting-room",
+      "photo": [1543485478461],
+      "productCategory": "meeting room",
+      "productCategoryDescription": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p>\n"
+    },
+    "1542341301105": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T04:08:21.105Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T10:06:10.811Z"
+      },
+      "active": true,
+      "id": 1542341301105,
+      "left": true,
+      "linkTo": "/services/event-space",
+      "photo": [1543485515736],
+      "productCategory": "event space",
+      "productCategoryDescription": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p>\n"
+    },
+    "1542341322839": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T04:08:42.839Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T10:05:34.486Z"
+      },
+      "active": true,
+      "id": 1542341322839,
+      "left": false,
+      "linkTo": "/services/workstation",
+      "photo": [1543485586834],
+      "productCategory": "workstation",
+      "productCategoryDescription": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p>\n"
+    },
+    "1542341361683": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T04:09:21.683Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T10:03:51.895Z"
+      },
+      "active": false,
+      "id": 1542341361683,
+      "left": true,
+      "linkTo": "/services/legal-service",
+      "photo": [1543485366071],
+      "productCategory": "legal service",
+      "productCategoryDescription": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p>\n"
+    },
+    "1543486233036": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-29T10:10:33.036Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T10:11:26.907Z"
+      },
+      "active": true,
+      "id": 1543486233036,
+      "left": true,
+      "linkTo": "/services/class-room",
+      "photo": [1543485507042],
+      "productCategory": "class room",
+      "productCategoryDescription": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p>\n"
+    }
+  }
+]

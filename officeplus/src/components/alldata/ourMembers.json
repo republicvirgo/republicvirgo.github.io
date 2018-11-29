@@ -1,0 +1,60 @@
+[
+  {
+    "1542353084794": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T07:24:44.794Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T14:29:03.240Z"
+      },
+      "activeTestimonial": true,
+      "id": 1542353084794,
+      "memberName": "Fabricio González Antuña",
+      "memberPhoto": [1543485671072],
+      "memberTitle": "CEO of Dynamia",
+      "testimonial": "<p>The most important thing is that all of the community has embedded a standard of trust. You breathe trust, and for developing business, it's a great plus!</p>\n"
+    },
+    "1542353164362": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T07:26:04.362Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T14:28:47.857Z"
+      },
+      "activeTestimonial": true,
+      "id": 1542353164362,
+      "memberName": "Rachel Wilson",
+      "memberPhoto": [1543485680646],
+      "memberTitle": "Founder of Inclusion",
+      "testimonial": "<p>There's something empowering about working in a space where you are encouraged to create brilliant ideas that disrupt culture followed by the support of a team of people who want you to win.</p>\n"
+    },
+    "1542353238431": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T07:27:18.431Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T14:28:24.495Z"
+      },
+      "activeTestimonial": true,
+      "id": 1542353238431,
+      "memberName": "Saeed Jabbar",
+      "memberPhoto": [1543485663830],
+      "memberTitle": "Founder of Inclusion",
+      "testimonial": "<p>I've scaled my organization, hosted successful events, and most importantly met lifelong friends all within the WeWork ecosystem.</p>\n"
+    },
+    "1542354438704": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T07:47:18.705Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T14:28:02.892Z"
+      },
+      "activeTestimonial": true,
+      "id": 1542354438704,
+      "memberName": "Ramon Jason",
+      "memberPhoto": [1543485656008],
+      "memberTitle": "Entrepreneur & Global Speaker",
+      "testimonial": "<p>My favorite thing about WeWork is the easy access to facilities and network of peers (online and at each location) who I can help or get help from!</p>\n"
+    }
+  }
+]

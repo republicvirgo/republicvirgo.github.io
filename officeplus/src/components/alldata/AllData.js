@@ -32,26 +32,6 @@ import opCp18 from "../../assets/images/officeplusCP/18.jpg";
 import opEc4 from "../../assets/images/officeplusEC/4.jpg";
 //import opEc5 from "../../assets/images/officeplusEC/5.jpg";
 
-import { includedAmenitiesData } from "./includedAmenities";
-import { productData } from "./product";
-import { productCategoryData } from "./productCategory";
-import { productLocationData } from "./productLocation";
-
-export const alldata = [
-  {
-    environments: {
-      production: {
-        content: {
-          includedAmenities: { includedAmenitiesData },
-          product: { productData },
-          productCategory: { productCategoryData },
-          productLocation: { productLocationData }
-        }
-      }
-    }
-  }
-];
-
 //-----------------------------------------------------------------
 //-----------------------------------------------------------------
 

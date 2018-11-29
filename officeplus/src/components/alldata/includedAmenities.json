@@ -1,0 +1,289 @@
+[
+  {
+    "1542357662946": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T08:41:02.946Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:20:12.581Z"
+      },
+      "active": true,
+      "facilities": "Dedicated",
+      "featured": true,
+      "icon": "universal access",
+      "id": 1542357662946,
+      "order": 0,
+      "parentId": 0
+    },
+    "1542357706121": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T08:41:46.121Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:20:31.696Z"
+      },
+      "active": true,
+      "facilities": "Full Furnish",
+      "featured": true,
+      "icon": "university",
+      "id": 1542357706121,
+      "order": 1,
+      "parentId": 0
+    },
+    "1542357804535": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T08:43:24.535Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:21:03.522Z"
+      },
+      "active": true,
+      "facilities": "Free Mineral Water",
+      "featured": false,
+      "icon": "coffee",
+      "id": 1542357804535,
+      "order": 2,
+      "parentId": 0
+    },
+    "1542357874228": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T08:44:34.228Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:23:02.434Z"
+      },
+      "active": true,
+      "facilities": "Free Wifi",
+      "featured": true,
+      "icon": "wifi",
+      "id": 1542357874228,
+      "order": 3,
+      "parentId": 0
+    },
+    "1542357918250": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T08:45:18.250Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:23:35.103Z"
+      },
+      "active": true,
+      "facilities": "Free Listrik",
+      "featured": true,
+      "icon": "lightbulb outline",
+      "id": 1542357918250,
+      "order": 4,
+      "parentId": 0
+    },
+    "1542358031771": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T08:47:11.771Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:23:46.283Z"
+      },
+      "active": true,
+      "facilities": "Office Boy Standby",
+      "featured": true,
+      "icon": "user circle",
+      "id": 1542358031771,
+      "order": 5,
+      "parentId": 0
+    },
+    "1542358168987": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T08:49:28.987Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:24:29.857Z"
+      },
+      "active": true,
+      "facilities": "1 Meja Kerja Dan 1 Kursi",
+      "featured": true,
+      "icon": "archive",
+      "id": 1542358168987,
+      "order": 6,
+      "parentId": 0
+    },
+    "1542358337930": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T08:52:17.930Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:24:44.754Z"
+      },
+      "active": true,
+      "facilities": "Akses Kerja di Coworking Space 2 Hari/Bulan di Officeplus Central Park",
+      "featured": false,
+      "icon": "flag outline",
+      "id": 1542358337930,
+      "order": 7,
+      "parentId": 0
+    },
+    "1542359710597": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:15:10.598Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:25:33.732Z"
+      },
+      "active": true,
+      "facilities": "Alamat Kantor",
+      "featured": true,
+      "icon": "map marker alternate",
+      "id": 1542359710597,
+      "order": 8,
+      "parentId": 0
+    },
+    "1542359781531": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:16:21.531Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:25:51.728Z"
+      },
+      "active": true,
+      "facilities": "Handle Surat / Paket Masuk",
+      "featured": true,
+      "icon": "paste",
+      "id": 1542359781531,
+      "order": 9,
+      "parentId": 0
+    },
+    "1542359874479": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:17:54.479Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:26:26.766Z"
+      },
+      "active": true,
+      "facilities": "1 Dedicated Phone Number (021) Khusus Perusahaan Anda dan dapat Langsung Tersambung ke Handphone Anda",
+      "featured": false,
+      "icon": "tty",
+      "id": 1542359874479,
+      "order": 10,
+      "parentId": 0
+    },
+    "1542359900211": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:18:20.211Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:26:37.780Z"
+      },
+      "active": true,
+      "facilities": "Free Pengurusan SKDP",
+      "featured": true,
+      "icon": "list alternate outline",
+      "id": 1542359900211,
+      "order": 11,
+      "parentId": 0
+    },
+    "1542359986746": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:19:46.746Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:27:51.736Z"
+      },
+      "active": true,
+      "facilities": "Free Greeting atas Nama Perusaahaan Anda",
+      "featured": false,
+      "icon": "envelope outline",
+      "id": 1542359986746,
+      "order": 12,
+      "parentId": 0
+    },
+    "1542360143713": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:22:23.713Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:28:13.599Z"
+      },
+      "active": true,
+      "facilities": "Free greeting (Umum)",
+      "featured": false,
+      "icon": "envelope open outline",
+      "id": 1542360143713,
+      "order": 13,
+      "parentId": 0
+    },
+    "1542360406590": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:26:46.590Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:28:31.047Z"
+      },
+      "active": true,
+      "facilities": "Telp Masuk (di Keep)",
+      "featured": true,
+      "icon": "phone volume",
+      "id": 1542360406590,
+      "order": 14,
+      "parentId": 0
+    },
+    "1542360992828": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:36:32.828Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:28:50.004Z"
+      },
+      "active": true,
+      "facilities": "Akses ke Lantai 2",
+      "featured": false,
+      "icon": "key",
+      "id": 1542360992828,
+      "order": 15,
+      "parentId": 0
+    },
+    "1542361115624": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:38:35.624Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:29:09.375Z"
+      },
+      "active": true,
+      "facilities": "Free Coffe/Tea/Cokelat",
+      "featured": true,
+      "icon": "coffee",
+      "id": 1542361115624,
+      "order": 16,
+      "parentId": 0
+    },
+    "1542361441030": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:44:01.030Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:29:26.551Z"
+      },
+      "active": true,
+      "facilities": "No Dedicated",
+      "featured": false,
+      "icon": "users",
+      "id": 1542361441030,
+      "order": 17,
+      "parentId": 0
+    },
+    "1542361563062": {
+      "__meta__": {
+        "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "createdDate": "2018-11-16T09:46:03.062Z",
+        "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+        "lastModifiedDate": "2018-11-29T09:30:05.881Z"
+      },
+      "active": true,
+      "facilities": "Free Loker",
+      "featured": true,
+      "icon": "block layout",
+      "id": 1542361563062,
+      "order": 18,
+      "parentId": 0
+    }
+  }
+]
