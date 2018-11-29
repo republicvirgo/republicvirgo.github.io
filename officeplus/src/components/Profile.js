@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import opCp7 from "../assets/images/officeplusCP/7.jpg";
 import profilebanner from "../assets/images/officepluscp.png";
+import logo from "../assets/images/logo.png";
 
 import {
   Container,
@@ -70,6 +71,13 @@ class Profile extends Component {
                     between private rooms and shared spaces – or a mix of both –
                     and get down to business right away.
                   </p>
+
+                  <img
+                    src={logo}
+                    style={{ width: "15em", margin: "2em 0em" }}
+                    alt="officeplus"
+                  />
+
                   <p style={{ fontSize: "1.3em" }}>
                     Whether you’re a freelancer, an entrepreneur, or a startup,
                     we welcome you to join the community and go the distance

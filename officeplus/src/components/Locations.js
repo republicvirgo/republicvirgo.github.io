@@ -6,6 +6,7 @@ import React, { Component } from "react";
 
 import cpMap from "../assets/images/cpmap.jpg";
 import ecMap from "../assets/images/ecmap.jpg";
+import logo from "../assets/images/logo.png";
 
 import {
   Container,
@@ -117,8 +118,13 @@ class Location extends Component {
               Contact Us
             </Divider>
 
+            <img src={logo} style={{ width: "12em" }} alt="officeplus" />
             <p style={{ fontSize: "1.3em", marginTop: "1em" }}>
-              Officeplus - Central Park
+              Officeplus Pte Ltd
+            </p>
+
+            <p style={{ fontSize: "1.3em", marginTop: "1em" }}>
+              Central Park
               <br />
               <i aria-hidden="true" class="phone volume icon" />{" "}
               <a href="tel:+622129206264">021 - 2920 6264</a>
@@ -138,7 +144,7 @@ class Location extends Component {
               </a>
               <br />
               <br />
-              Officeplus - Epicentrum Walk (Epiwalk)
+              Epicentrum Walk (Epiwalk)
               <br />
               <i aria-hidden="true" class="phone volume icon" />{" "}
               <a href="tel:+622129912050">021 - 2991 2050</a>

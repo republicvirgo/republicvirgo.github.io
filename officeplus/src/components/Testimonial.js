@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { testimonialData } from "./AllData";
+import { testimonialData } from "./alldata/AllData";
 
 class Testimonial extends Component {
   render() {

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import { Col, Container, Row, Footer } from "mdbreact";
 
-import { BrowserRouter as Router } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,12 +18,16 @@ import {
   faYoutube
 } from "@fortawesome/free-brands-svg-icons";
 
+import CapitalizedText from "../utilities/CapitalizedText";
+
+import { productListData } from "./alldata/AllData";
+
 import "./styles/FooterBar.css";
 
 class FooterBar extends Component {
   render() {
     return (
-      <Router>
+      <div>
         <Footer
           color="pink"
           className="font-small pt-4 mt-4"
@@ -33,8 +36,9 @@ class FooterBar extends Component {
           <Container fluid className="text-center text-md-left">
             <Container>
               <Row className="footerRow">
-                <Col md="4">
+                <Col md="3">
                   <h5 className="title">Officeplus Pte Ltd</h5>
+
                   <ul>
                     <li className="list-unstyled">
                       <FontAwesomeIcon
@@ -74,7 +78,7 @@ class FooterBar extends Component {
                   </ul>
                 </Col>
 
-                <Col md="4">
+                <Col md="3">
                   <h5 className="title">Links</h5>
                   <ul>
                     <li className="list-unstyled">
@@ -82,7 +86,7 @@ class FooterBar extends Component {
                         icon={faCaretRight}
                         className="footerIcon"
                       />{" "}
-                      <Link to="/workspace">Workspace</Link>
+                      <Link to="/service">Service</Link>
                     </li>
                     <li className="list-unstyled">
                       <FontAwesomeIcon
@@ -96,15 +100,18 @@ class FooterBar extends Component {
                         icon={faCaretRight}
                         className="footerIcon"
                       />{" "}
-                      <Link to="/our-profile">Our Profile</Link>
+                      <Link to="/profile">Profile</Link>
                     </li>
+
                     <li className="list-unstyled">
                       <FontAwesomeIcon
                         icon={faCaretRight}
                         className="footerIcon"
                       />{" "}
-                      <Link to="/contact-us">Contact Us</Link>
+                      <Link to="/contact">Contact</Link>
                     </li>
+
+                    {/*
                     <li className="list-unstyled">
                       <FontAwesomeIcon
                         icon={faCaretRight}
@@ -112,12 +119,43 @@ class FooterBar extends Component {
                       />{" "}
                       <Link to="/blogs">Blogs</Link>
                     </li>
+                    */}
                   </ul>
                 </Col>
 
-                <Col md="4">
+                <Col md="3">
+                  <h5 className="title">Our Service</h5>
+                  <ul>
+                    {productListData.map(pld => (
+                      <li className="list-unstyled">
+                        <FontAwesomeIcon
+                          icon={faCaretRight}
+                          className="footerIcon"
+                        />{" "}
+                        <Link to={pld.link.to}>
+                          <CapitalizedText text={pld.productCategory} />
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </Col>
+
+                <Col md="3">
                   <h5 className="title">Connect with Us</h5>
                   <ul>
+                    <li className="list-unstyled">
+                      <FontAwesomeIcon
+                        icon={faInstagram}
+                        className="footerIcon"
+                      />{" "}
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.instagram.com/officeplus.jakarta/"
+                      >
+                        Instagram
+                      </a>
+                    </li>
                     <li className="list-unstyled">
                       <FontAwesomeIcon
                         icon={faFacebookSquare}
@@ -129,19 +167,6 @@ class FooterBar extends Component {
                         href="https://facebook.com"
                       >
                         Facebook
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <FontAwesomeIcon
-                        icon={faInstagram}
-                        className="footerIcon"
-                      />{" "}
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://instagram.com"
-                      >
-                        Instagram
                       </a>
                     </li>
                     <li className="list-unstyled">
@@ -169,7 +194,7 @@ class FooterBar extends Component {
             </Container>
           </div>
         </Footer>
-      </Router>
+      </div>
     );
   }
 }

@@ -1,11 +1,6 @@
 import React, { Component } from "react";
-//import { Link } from "react-router-dom";
 
-//import _ from "lodash";
-
-import CapitalizedText from "../utilities/CapitalizedText";
-
-import { includedAmenities } from "./AllData";
+import { includedAmenities } from "./alldata/AllData";
 class IncludedAmenities extends Component {
   render() {
     return (
@@ -26,9 +21,7 @@ class IncludedAmenities extends Component {
                     <i aria-hidden="true" className={ia.icon + " icon"} />
                     <i aria-hidden="true" className="add corner icon" />
                   </i>
-                  <h6 className="ui header">
-                    <CapitalizedText text={ia.facilities} />
-                  </h6>
+                  <h6 className="ui header">{ia.facilities}</h6>
                 </div>
               ) : (
                 ""

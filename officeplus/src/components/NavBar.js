@@ -11,6 +11,8 @@ import {
   Container
 } from "mdbreact";
 
+import logo from "../assets/images/logo.png";
+
 import "./styles/NavBar.css";
 
 class NavBar extends Component {
@@ -50,7 +52,7 @@ class NavBar extends Component {
       >
         <Container>
           <NavbarBrand>
-            <strong className="NavBrand">Officeplus</strong>
+            <img src={logo} style={{ width: "8em" }} alt="officeplus" />
           </NavbarBrand>
 
           <NavbarToggler onClick={this.onClick} />
@@ -87,15 +89,13 @@ class NavBar extends Component {
                 <NavLink to="/profile">Profile</NavLink>
               </NavItem>
 
-              {/*
               <NavItem
                 name="contact"
                 active={activeNav === "contact"}
                 onClick={() => this.handleNavClick("contact")}
               >
-                <NavLink to="/contact">Contact US</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
               </NavItem>
-              */}
             </NavbarNav>
           </Collapse>
         </Container>

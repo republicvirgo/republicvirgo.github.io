@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import CapitalizedText from "../utilities/CapitalizedText";
 
-import { productListData } from "./AllData";
+import { productListData } from "./alldata/AllData";
 
 class ProductBanner extends Component {
   render() {

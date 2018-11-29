@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import { profileBannerData } from "./AllData";
+import { profileBannerData } from "./alldata/AllData";
 
 class ProfileBanner extends Component {
   render() {
@@ -20,11 +20,14 @@ class ProfileBanner extends Component {
                 </div>
                 <div className="meta">{pbd.meta}</div>
 
-                {pbd.description.map(pbdd => (
-                  <div className="description" key={pbdd.key}>
-                    <p style={{ fontSize: "1.3em" }}>{pbdd.text}</p>
-                  </div>
-                ))}
+                <div className="description">
+                  <div
+                    style={{ fontSize: "1.3em" }}
+                    dangerouslySetInnerHTML={{
+                      __html: pbd.description
+                    }}
+                  />
+                </div>
 
                 <div className="extra">
                   <Link

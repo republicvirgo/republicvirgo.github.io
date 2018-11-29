@@ -1,48 +1,72 @@
-//import noImage from "../assets/images/noimage.png";
+//import noImage from "../../assets/images/noimage.png";
 
-import foto1 from "../assets/images/testimonial/1.png";
-import foto2 from "../assets/images/testimonial/2.png";
-import foto3 from "../assets/images/testimonial/3.png";
-import foto4 from "../assets/images/testimonial/4.png";
+import foto1 from "../../assets/images/testimonial/1.png";
+import foto2 from "../../assets/images/testimonial/2.png";
+import foto3 from "../../assets/images/testimonial/3.png";
+import foto4 from "../../assets/images/testimonial/4.png";
 
-//import product1 from "../assets/images/1.jpg";
-//import product2 from "../assets/images/2.jpg";
-import product3 from "../assets/images/3.jpg";
-//import product4 from "../assets/images/4.jpg";
-import product5 from "../assets/images/5.jpg";
-//import product6 from "../assets/images/6.jpg";
-//import product7 from "../assets/images/3.jpg";
+import legalService from "../../assets/images/legalservice.jpg";
 
-import legalService from "../assets/images/legal-service.jpg";
+import opCp1 from "../../assets/images/officeplusCP/1.jpg";
+//import opCp2 from "../../assets/images/officeplusCP/2.jpg";
+//import opCp3 from "../../assets/images/officeplusCP/3.jpg";
+//import opCp4 from "../../assets/images/officeplusCP/4.jpg";
+//import opCp5 from "../../assets/images/officeplusCP/5.jpg";
+//import opCp6 from "../../assets/images/officeplusCP/6.jpg";
+import opCp7 from "../../assets/images/officeplusCP/7.jpg";
+//import opCp8 from "../../assets/images/officeplusCP/8.jpg";
+import opCp9 from "../../assets/images/officeplusCP/9.jpg";
+import opCp10 from "../../assets/images/officeplusCP/10.jpg";
+//import opCp11 from "../../assets/images/officeplusCP/11.jpg";
+//import opCp12 from "../../assets/images/officeplusCP/12.jpg";
+//import opCp13 from "../../assets/images/officeplusCP/13.jpg";
+import opCp14 from "../../assets/images/officeplusCP/14.jpg";
+//import opCp15 from "../../assets/images/officeplusCP/15.jpg";
+import opCp16 from "../../assets/images/officeplusCP/16.jpg";
+//import opCp17 from "../../assets/images/officeplusCP/17.jpg";
+import opCp18 from "../../assets/images/officeplusCP/18.jpg";
 
-import opCp6 from "../assets/images/officeplusCP/6.jpg";
-import opCp7 from "../assets/images/officeplusCP/7.jpg";
-import opCp15 from "../assets/images/officeplusCP/15.jpg";
-import opCp19 from "../assets/images/officeplusCP/19.jpg";
+//import opEc1 from "../../assets/images/officeplusEC/1.jpg";
+//import opEc2 from "../../assets/images/officeplusEC/2.jpg";
+//import opEc3 from "../../assets/images/officeplusEC/3.jpg";
+import opEc4 from "../../assets/images/officeplusEC/4.jpg";
+//import opEc5 from "../../assets/images/officeplusEC/5.jpg";
 
-import opEc5 from "../assets/images/officeplusEC/5.jpg";
+import { includedAmenitiesData } from "./includedAmenities";
+import { productData } from "./product";
+import { productCategoryData } from "./productCategory";
+import { productLocationData } from "./productLocation";
+
+export const alldata = [
+  {
+    environments: {
+      production: {
+        content: {
+          includedAmenities: { includedAmenitiesData },
+          product: { productData },
+          productCategory: { productCategoryData },
+          productLocation: { productLocationData }
+        }
+      }
+    }
+  }
+];
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
 
 export const profileBannerData = [
   {
     id: 1,
-    image: opCp7,
+    image: opCp10,
     header: "Welcome to Officeplus",
     meta: "",
-    description: [
-      {
-        key: 11,
-        text:
-          "At Officeplus, we offer workspaces that are inviting, inspiring, and conducive to collaboration. You can choose between private rooms and shared spaces – or a mix of both – and get down to business right away."
-      },
-      {
-        key: 12,
-        text:
-          "Whether you’re a freelancer, an entrepreneur, or a startup, we welcome you to join the community and go the distance with us."
-      }
-    ]
+    description:
+      "<p>At Officeplus, we offer workspaces that are inviting, inspiring, and conducive to collaboration. You can choose between private rooms and shared spaces – or a mix of both – and get down to business right away.</p> <p>Whether you’re a freelancer, an entrepreneur, or a startup, we welcome you to join the community and go the distance with us.</p>"
   }
 ];
 
+//aka product Category
 export const productListData = [
   {
     id: 1,
@@ -54,85 +78,106 @@ export const productListData = [
       "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p> ",
     link: {
       label: "View More",
-      to: "/service/legal-service"
+      to: "/services/legal-service",
+      component: "LegalService"
     }
   },
   {
     id: 2,
     left: false,
     active: false,
-    photo: opCp6,
+    photo: opEc4,
     productCategory: "workstation",
     productCategoryDescription:
       "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p> ",
     link: {
       label: "View More",
-      to: "/service/workstation"
+      to: "/services/workstation",
+      component: "Workstation"
     }
   },
   {
     id: 3,
     left: true,
     active: false,
-    photo: product3,
+    photo: opCp16,
     productCategory: "event space",
     productCategoryDescription:
       "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p> ",
     link: {
       label: "View More",
-      to: "/service/event-space"
+      to: "/services/event-space",
+      component: "EventSpace"
     }
   },
   {
     id: 4,
     left: false,
     active: true,
-    photo: opCp15,
+    photo: opCp7,
     productCategory: "meeting room",
     productCategoryDescription:
       "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p> ",
     link: {
       label: "View More",
-      to: "/service/meeting-room"
+      to: "/services/meeting-room",
+      component: "MeetingRoom"
     }
   },
   {
     id: 5,
     left: true,
     active: false,
-    photo: product5,
+    photo: opCp1,
     productCategory: "private office",
     productCategoryDescription:
       "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p> ",
     link: {
       label: "View More",
-      to: "/service/private-office"
+      to: "/services/private-office",
+      component: "PrivateOffice"
     }
   },
   {
     id: 6,
     left: true,
     active: true,
-    photo: opCp19,
+    photo: opCp9,
     productCategory: "coworking space",
     productCategoryDescription:
       "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p> ",
     link: {
       label: "View More",
-      to: "/service/coworking-space"
+      to: "/services/coworking-space",
+      component: "CoworkingSpace"
     }
   },
   {
     id: 7,
     left: false,
     active: true,
-    photo: opEc5,
+    photo: opCp18,
     productCategory: "virtual office",
     productCategoryDescription:
       "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p>",
     link: {
       label: "View More",
-      to: "/service/virtual-office"
+      to: "/services/virtual-office",
+      component: "VirtualOffice"
+    }
+  },
+  {
+    id: 8,
+    left: true,
+    active: false,
+    photo: opCp14,
+    productCategory: "Class Room",
+    productCategoryDescription:
+      "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p> ",
+    link: {
+      label: "View More",
+      to: "/services/class-room",
+      component: "ClassRoom"
     }
   }
 ];
@@ -165,7 +210,7 @@ export const testimonialData = [
   {
     id: 4,
     img: foto4,
-    name: "Entrepreneur & Creative Director",
+    name: "Rachel Wilson",
     title: "Founder of Inclusion",
     text:
       "There's something empowering about working in a space where you are encouraged to create brilliant ideas that disrupt culture followed by the support of a team of people who want you to win."

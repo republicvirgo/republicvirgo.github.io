@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { Accordion, Icon } from "semantic-ui-react";
 
-import { faqData } from "./AllData";
+import { faqData } from "./alldata/AllData";
 
 class Faq extends Component {
   state = { activeIndex: 0 };
