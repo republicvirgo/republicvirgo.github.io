@@ -7,6 +7,8 @@ import ProductList2 from "../ProductList2";
 
 import Faq from "../Faq";
 
+import { componentSetting } from "../alldata/AllData";
+
 class VirtualOffice extends Component {
   state = {};
   render() {
@@ -552,18 +554,30 @@ class VirtualOffice extends Component {
               </Table>
             </Grid.Column>
           </Grid>
+        </div>
 
-          <div className="ui hidden divider" />
-          <div className="ui hidden divider" />
-          <div className="ui hidden divider" />
+        <div className="ui container">
+          {componentSetting.map(cs =>
+            cs.cProductList2 ? (
+              <div>
+                <div className="ui hidden divider mt-5" />
+                <ProductList2 />
+              </div>
+            ) : (
+              ""
+            )
+          )}
 
-          <ProductList2 />
-
-          <div className="ui hidden divider" />
-          <div className="ui hidden divider" />
-          <div className="ui hidden divider" />
-
-          <Faq />
+          {componentSetting.map(cs =>
+            cs.cFaq ? (
+              <div>
+                <div className="ui hidden divider mt-5" />
+                <Faq />
+              </div>
+            ) : (
+              ""
+            )
+          )}
         </div>
       </div>
     );

@@ -6,7 +6,7 @@ import { Accordion, Icon } from "semantic-ui-react";
 import faqData from "./alldata/faq.json";
 
 class Faq extends Component {
-  state = { activeIndex: 0 };
+  state = { activeIndex: "" };
 
   handleClick = (e, titleProps) => {
     const { index } = titleProps;
@@ -23,10 +23,12 @@ class Faq extends Component {
       <div>
         <h3 className="ui header" align="left">
           <span style={{ fontSize: "1.5em" }}>Frequently Asked Questions</span>
+          {/*
           <div className="sub header">
             Our team's always here to talk it out, just reach out by phone or
             email.
           </div>
+          */}
         </h3>
 
         <Accordion fluid styled>

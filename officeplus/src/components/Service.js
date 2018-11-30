@@ -5,27 +5,41 @@ import IncludedAmenities from "./IncludedAmenities";
 import Faq from "./Faq";
 import Testimonial from "./Testimonial";
 
+import { componentSetting } from "./alldata/AllData";
+
 class Service extends Component {
   state = {};
   render() {
     return (
       <div className="ui container">
         <ProductList />
-        <div className="ui hidden divider" />
-        <div className="ui hidden divider" />
-        <div className="ui hidden divider" />
 
-        <IncludedAmenities />
-        <div className="ui hidden divider" />
-        <div className="ui hidden divider" />
-        <div className="ui hidden divider" />
+        <div>
+          <div className="ui hidden divider mt-5" />
+          <IncludedAmenities />
+        </div>
 
-        <Faq />
-        <div className="ui hidden divider" />
-        <div className="ui hidden divider" />
-        <div className="ui hidden divider" />
+        {componentSetting.map(cs =>
+          cs.cFaq ? (
+            <div>
+              <div className="ui hidden divider mt-5" />
+              <Faq />
+            </div>
+          ) : (
+            ""
+          )
+        )}
 
-        <Testimonial />
+        {componentSetting.map(cs =>
+          cs.cTestimonial ? (
+            <div>
+              <div className="ui hidden divider mt-5" />
+              <Testimonial />
+            </div>
+          ) : (
+            ""
+          )
+        )}
       </div>
     );
   }

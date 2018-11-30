@@ -6,6 +6,8 @@ import ProductList2 from "../ProductList2";
 
 import Faq from "../Faq";
 
+import { componentSetting } from "../alldata/AllData";
+
 class LegalService extends Component {
   state = {};
   render() {
@@ -150,18 +152,30 @@ class LegalService extends Component {
               </Table.Row>
             </Table.Body>
           </Table>
+        </div>
 
-          <div className="ui hidden divider" />
-          <div className="ui hidden divider" />
-          <div className="ui hidden divider" />
+        <div className="ui container">
+          {componentSetting.map(cs =>
+            cs.cProductList2 ? (
+              <div>
+                <div className="ui hidden divider mt-5" />
+                <ProductList2 />
+              </div>
+            ) : (
+              ""
+            )
+          )}
 
-          <ProductList2 />
-
-          <div className="ui hidden divider" />
-          <div className="ui hidden divider" />
-          <div className="ui hidden divider" />
-
-          <Faq />
+          {componentSetting.map(cs =>
+            cs.cFaq ? (
+              <div>
+                <div className="ui hidden divider mt-5" />
+                <Faq />
+              </div>
+            ) : (
+              ""
+            )
+          )}
         </div>
       </div>
     );

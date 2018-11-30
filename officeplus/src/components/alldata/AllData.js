@@ -1,9 +1,8 @@
 //import noImage from "../../assets/images/noimage.png";
 
-import foto1 from "../../assets/images/testimonial/1.png";
-import foto2 from "../../assets/images/testimonial/2.png";
-import foto3 from "../../assets/images/testimonial/3.png";
-import foto4 from "../../assets/images/testimonial/4.png";
+import foto1 from "../../assets/images/testimonial/google.jpg";
+import foto2 from "../../assets/images/testimonial/kredivo.jpg";
+import foto3 from "../../assets/images/testimonial/lco.jpg";
 
 import legalService from "../../assets/images/legalservice.jpg";
 
@@ -32,17 +31,30 @@ import opCp18 from "../../assets/images/officeplusCP/18.jpg";
 import opEc4 from "../../assets/images/officeplusEC/4.jpg";
 //import opEc5 from "../../assets/images/officeplusEC/5.jpg";
 
+export const componentSetting = [
+  {
+    cFaq: true,
+    cTestimonial: true,
+    cProductList2: true
+  }
+];
+
 //-----------------------------------------------------------------
 //-----------------------------------------------------------------
 
+const profileDescId =
+  "<p>Di Officeplus, kami menawarkan ruang kerja yang mengundang, menginspirasi, dan kondusif untuk berkolaborasi. Anda dapat memilih antara Private Rooms dan Share Spaces - atau campuran keduanya - dan langsung bisa berbisnis.</p><p>Baik Anda seorang freelancer, pengusaha, atau startup, kami menyambut Anda untuk bergabung dengan komunitas dan pergi jauh dengan kami.</p>";
+/*
+const profileDescEn =
+  "<p>At Officeplus, we offer workspaces that are inviting, inspiring, and conducive to collaboration. You can choose between private rooms and shared spaces – or a mix of both – and get down to business right away.</p> <p>Whether you’re a freelancer, an entrepreneur, or a startup, we welcome you to join the community and go the distance with us.</p>";
+*/
 export const profileBannerData = [
   {
     id: 1,
     image: opCp10,
-    header: "Welcome to Officeplus",
+    header: "Selamat datang di Officeplus",
     meta: "",
-    description:
-      "<p>At Officeplus, we offer workspaces that are inviting, inspiring, and conducive to collaboration. You can choose between private rooms and shared spaces – or a mix of both – and get down to business right away.</p> <p>Whether you’re a freelancer, an entrepreneur, or a startup, we welcome you to join the community and go the distance with us.</p>"
+    description: profileDescId
   }
 ];
 
@@ -97,7 +109,7 @@ export const productListData = [
     photo: opCp7,
     productCategory: "meeting room",
     productCategoryDescription:
-      "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p> ",
+      "<p>Cari ruangan meeting super nyaman, kondusif dan terjangkau?? Kapan lagi bisa meeting di ruangan super nyaman, kondusif dan terjangkau di Jakarta hanya 150rb/jam?? hanya di OFFICEPLUS Jakarta nikmati beragam fasilitas menyenangkan.</p><p>Kami ciptakan suasana nyaman dan menyenangkan untuk mendukung keberhasilan peresntasi bisnis yang Anda lakukan. Yakin ada yang lebih hemat dengan fasilitas lengkap? coba ditempat kami sekarang!</p>",
     link: {
       label: "View More",
       to: "/services/meeting-room",
@@ -111,7 +123,7 @@ export const productListData = [
     photo: opCp1,
     productCategory: "private office",
     productCategoryDescription:
-      "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p> ",
+      "<p>Ruang kerja pribadi untuk perusahaan yang membutuhkan privasi dalam bekerja. Ruang kerja pribadi yang tersedia di desain untuk tim berukuran 3 sampai 5 orang dengan dilengkapi meja dan kursi.</p> ",
     link: {
       label: "View More",
       to: "/services/private-office",
@@ -125,7 +137,7 @@ export const productListData = [
     photo: opCp9,
     productCategory: "coworking space",
     productCategoryDescription:
-      "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p> ",
+      "<p>Coworking adalah tempat bekerja secara bersama atau berkolaborasi dengan individu yang berlatar belakang pekerjaan dan perusahaan yang berbeda.. dan apa sih keuntungan dr coworking space?</p><p>selain coworking space relatif lebih murah, coworking space juga bisa membangun community atau peluang bisnis dengan mamber lain dan bisa saling sharing dengan latarbelakang bisnis yang berbeda. Yuk buruan daftar!!</p>",
     link: {
       label: "View More",
       to: "/services/coworking-space",
@@ -139,7 +151,7 @@ export const productListData = [
     photo: opCp18,
     productCategory: "virtual office",
     productCategoryDescription:
-      "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable.</p>",
+      "<p>Jika Kamu adalah Startup Founder, Pasti sering mendengar istilah dari virtual office atau kantor virtual?</p><p>jadi definisi virtual office itu adalah sebuah kantor dimana para penyewa hanya memiliki alamat dari kantor tersebut, namun tidak memiliki ruangan secara fisik dan kami juga menawarkan alamat kantor virtual untuk digunakan sebagai pendukung legalitas perusaahaan anda. selain lokasi yang strategis dan harga kami juga sangat terjangkau.</p>",
     link: {
       label: "View More",
       to: "/services/virtual-office",
@@ -166,34 +178,23 @@ export const testimonialData = [
   {
     id: 1,
     img: foto1,
-    name: "Ramon Ray",
-    title: "Entrepreneur & Global Speaker",
-    text:
-      "My favorite thing about WeWork is the easy access to facilities and network of peers (online and at each location) who I can help or get help from!"
+    name: "Google",
+    title: "",
+    text: ""
   },
   {
     id: 2,
     img: foto2,
-    name: "Saeed Jabbar",
-    title: "Founder of Inclusion",
-    text:
-      "I've scaled my organization, hosted successful events, and most importantly met lifelong friends all within the WeWork ecosystem."
+    name: "Kredivo",
+    title: "",
+    text: ""
   },
   {
     id: 3,
     img: foto3,
-    name: "Fabricio González Antuña",
-    title: "CEO of Dynamia",
-    text:
-      "The most important thing is that all of the community has embedded a standard of trust. You breathe trust, and for developing business, it's a great plus!"
-  },
-  {
-    id: 4,
-    img: foto4,
-    name: "Rachel Wilson",
-    title: "Founder of Inclusion",
-    text:
-      "There's something empowering about working in a space where you are encouraged to create brilliant ideas that disrupt culture followed by the support of a team of people who want you to win."
+    name: "Ludony & Co",
+    title: "",
+    text: ""
   }
 ];
 
@@ -332,50 +333,5 @@ export const includedAmenities = [
     icon: "block layout",
     active: true,
     feature: true
-  }
-];
-
-export const faqData = [
-  {
-    id: 1,
-    q: "Are your memberships really month-to-month?",
-    a:
-      "<p>Yes! Our flexible month-to-month commitment provides you with the stability of an office along with the flexibility you need to grow your business. WeWork also offers longer term commitments; call us at 021 2920 6264 or 0812 9072 3828 or email us at sales@officepluscenter.com for more information.</p>",
-    active: true
-  },
-  {
-    id: 2,
-    q: "Am I allowed to bring my dog? What is your pet policy?",
-    a:
-      "<p>Our pet policy varies by building. Please ask the WeWork Community Manager when you take a tour for the most up-to-date information.</p>",
-    active: true
-  },
-  {
-    id: 3,
-    q: "Can I add mail and package handling?",
-    a:
-      "<p>Mail and package handling is included for Dedicated Desk and Private Office plans. Hot Desk and We Membership plans offer this service à la carte at most buildings. Reach out to the local Community team at your desired location to find out more.</p>",
-    active: true
-  },
-  {
-    id: 4,
-    q: "Does WeWork give referral rewards?",
-    a:
-      "<p>Yes! Our referral program rewards WeWork members with 10% of the monthly Membership Fee of the member who signs up for up to one year. This applies only to Dedicated Desk and Private Office membership plans. There are no limits to the number of referral rewards a member may earn.</p>",
-    active: true
-  },
-  {
-    id: 5,
-    q: "Am I able to transfer to another WeWork location?",
-    a:
-      "<p>If the building of your choice has availability, we’re happy to work with you to organize a seamless move.</p>",
-    active: true
-  },
-  {
-    id: 6,
-    q: "What are your building hours? When are you open?",
-    a:
-      "<p>WeWork staff are generally onsite at each location between 9 AM – 6 PM local time Monday through Friday at all locations. For members with Hot Desks, Dedicated Desks, or Private Offices, your location is accessible by keycard 24/7.</p>",
-    active: true
   }
 ];

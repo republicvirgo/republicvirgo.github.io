@@ -59,21 +59,29 @@ class FooterBar extends Component {
                         icon={faPhoneVolume}
                         className="footerIcon"
                       />{" "}
-                      021 2920 6264
+                      <a href="tel:+622129206264">021 - 2920 6264</a>
                     </li>
                     <li className="list-unstyled">
                       <FontAwesomeIcon
                         icon={faMobileAlt}
                         className="footerIcon"
                       />{" "}
-                      0812 9072 3828
+                      <a
+                        href="https://api.whatsapp.com/send?phone=6281290723828"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        0812 9072 3828
+                      </a>
                     </li>
                     <li className="list-unstyled">
                       <FontAwesomeIcon
                         icon={faEnvelope}
                         className="footerIcon"
                       />{" "}
-                      sales@officepluscenter.com
+                      <a href="mailto:sales@officepluscenter.com">
+                        sales@officepluscenter.com
+                      </a>
                     </li>
                   </ul>
                 </Col>
@@ -153,20 +161,7 @@ class FooterBar extends Component {
                         rel="noopener noreferrer"
                         href="https://www.instagram.com/officeplus.jakarta/"
                       >
-                        Instagram
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <FontAwesomeIcon
-                        icon={faFacebookSquare}
-                        className="footerIcon"
-                      />{" "}
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://facebook.com"
-                      >
-                        Facebook
+                        IG: @officeplus.jakarta
                       </a>
                     </li>
                     <li className="list-unstyled">
@@ -177,9 +172,22 @@ class FooterBar extends Component {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://youtube.com"
+                        href="https://www.youtube.com/channel/UCuEV1Iee5XHr_6jcnaos6Dw"
                       >
-                        Youtube
+                        Youtube Channel
+                      </a>
+                    </li>
+                    <li className="list-unstyled">
+                      <FontAwesomeIcon
+                        icon={faFacebookSquare}
+                        className="footerIcon"
+                      />{" "}
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.facebook.com/officeplus.officeplus.1"
+                      >
+                        Facebook
                       </a>
                     </li>
                   </ul>

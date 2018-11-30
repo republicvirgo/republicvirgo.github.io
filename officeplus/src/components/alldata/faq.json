@@ -5,9 +5,9 @@
       "createdDate": "2018-11-29T10:18:30.419Z"
     },
     "active": true,
-    "answer": "<p>Yes! Our flexible month-to-month commitment provides you with the stability of an office along with the flexibility you need to grow your business. WeWork also offers longer term commitments; call us at 021 2920 6264 or 0812 9072 3828 or email us at sales@officepluscenter.com for more information.</p>\n",
+    "answer": "<p>Baik pak/ibu, saat ini officeplus sudah berubah menjadi coworking space.</p><p>dimana hanya dengan upgrade 1 juta/bulan, bapak/ibu sudah bisa mendapat akses 1 tempat duduk dikantor setiap hari nya</p><p>jadi lebih menguntungkan dibanding hanya alamat saja, apakah bapak/ibu tertarik?  Mungkin kalau bapak/ibu ada waktu Bisa datang dan lihat center baru kita</p>\n",
     "id": 1543486710419,
-    "question": "Are your memberships really month-to-month?"
+    "question": "1. Saya mau perpanjang Virtual ofice, bagaimana caranya ?"
   },
   {
     "__meta__": {
@@ -17,9 +17,9 @@
       "lastModifiedDate": "2018-11-29T10:20:50.138Z"
     },
     "active": true,
-    "answer": "<p>Our pet policy varies by building. Please ask the WeWork Community Manager when you take a tour for the most up-to-date information.</p>\n",
+    "answer": "<p>baik pak/ibu, hanya saja saat ini untuk virtual office ada harga baru yaitu 3.900.000/tahun</p><p>masih dengan fasilitas yang sama yaitu  penerimaan surat masuk, tlp masuk, dan fax masuk akan tetapi untuk fasilitas ruang meeting sekarang sudah dihilangkan</p>",
     "id": 1543486751795,
-    "question": "Am I allowed to bring my dog? What is your pet policy?"
+    "question": "2. Saya Juga Jarang ke kantor /pakai ruangan/ apakah ada diskon ?"
   },
   {
     "__meta__": {
@@ -29,9 +29,9 @@
       "lastModifiedDate": "2018-11-29T10:20:58.157Z"
     },
     "active": true,
-    "answer": "<p>Mail and package handling is included for Dedicated Desk and Private Office plans. Hot Desk and We Membership plans offer this service à la carte at most buildings. Reach out to the local Community team at your desired location to find out more.</p>\n",
+    "answer": "<p>untuk meeting masih  bisa pak, bapak cukup  membayar 50.000/ orang  (one day pass) dan bapak bisa bebas meeting seharian disini</p><p>dan kami juga akan sediakan coffee/ tea untuk bapak dan klien bapak nanti</p><p>karna desian kantor  kami sekarang cafe jadi bapak bisa bebas duduk dimana aja di lantai 1 atau 5</p>",
     "id": 1543486798112,
-    "question": "Can I add mail and package handling?"
+    "question": "3. Kalau saya mau meeting bagaimana ?"
   },
   {
     "__meta__": {
@@ -41,9 +41,9 @@
       "lastModifiedDate": "2018-11-29T10:21:04.444Z"
     },
     "active": true,
-    "answer": "<p>Yes! Our referral program rewards WeWork members with 10% of the monthly Membership Fee of the member who signs up for up to one year. This applies only to Dedicated Desk and Private Office membership plans. There are no limits to the number of referral rewards a member may earn.</p>\n",
+    "answer": "<p>jadi untuk coworking space itu, bapak/ibu bisa mendapatkan akses/tempat duduk untuk kerja disini. Kalau virtual kan hanya alamat saja</p><p>dan coworking space disini juga terdiri dari 2 paket pak/ibu yaitu standart member dengan harga 1 juta/bulan atau premium mamber dengan harga 2 juta/bulan</p>",
     "id": 1543486841863,
-    "question": "Does WeWork give referral rewards?"
+    "question": "4. Kalau Coworking space itu apa ? Bedanya apa sm virtual?"
   },
   {
     "__meta__": {
@@ -53,9 +53,9 @@
       "lastModifiedDate": "2018-11-29T14:23:27.481Z"
     },
     "active": true,
-    "answer": "<p>If the building of your choice has availability, we’re happy to work with you to organize a seamless move.</p>\n",
+    "answer": "<p>kalau untuk yang standar member bapak/ibu dapat 1 akses/tempat duduk dimana saja dan bisa memilih akses di lantai 1, 3 atau 5</p><p>tapi kekurangan dr standar member ini yaitu apabila suatu hari kantor kita sedang penuh bapak/ibu tidak mendapat kan tempat duduk, berati bapak/ibu harus menunggu</p><p>sedangkan  untuk yang premium member juga sama, bapak/ibu dapat 1 akses/tempat duduk dan di book satu tempat  hanya untuk perusahaan bapak/ibu saja</p><p>tidak bisa dipakai oleh klien lain, selain itu juga bapak/ibu bisa pakai fasilitas di lantai 2 seperti booth telp, ruang meeting kecil atau kasur tempat santai</p><p>serta mendapat free 1 loker untuk menaruh barang2.</p>",
     "id": 1543501292187,
-    "question": "Am I able to transfer to another WeWork location?"
+    "question": "5. Bedanya standar member dan premium member apa?"
   },
   {
     "__meta__": {
@@ -65,8 +65,32 @@
       "lastModifiedDate": "2018-11-29T14:23:34.864Z"
     },
     "active": true,
-    "answer": "<p>WeWork staff are generally onsite at each location between 9 AM – 6 PM local time Monday through Friday at all locations. For members with Hot Desks, Dedicated Desks, or Private Offices, your location is accessible by keycard 24/7.</p>\n",
+    "answer": "<p>bisa pak/bu, karena status sewa  nya sudah sewa kantor bersama dan  kami akan coba bantu bapak/ibu untuk prosesnya</p>",
     "id": 1543501397883,
-    "question": "What are your building hours? When are you open?"
+    "question": "6. Kalau coworking bisa untuk pengajuan PKP atau tidak?"
+  },
+  {
+    "__meta__": {
+      "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+      "createdDate": "2018-11-29T14:23:17.883Z",
+      "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+      "lastModifiedDate": "2018-11-29T14:23:34.864Z"
+    },
+    "active": true,
+    "answer": "<p>Freelancer pass ini sama coworking space juga, akan tetapi  perbedaannya itu hanya di waktu pemakaiannya saja.</p><p>jadi biasanya freelancer pass ini digunakan bagi orang2 yang ingin bekerja pada malam hari dan waktunya itu mulai dari jam 18.000 sampai dengan 21.00<p>",
+    "id": 1543501397899,
+    "question": "7. Kalau Freelancerpass itu apa?"
+  },
+  {
+    "__meta__": {
+      "createdBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+      "createdDate": "2018-11-29T14:23:17.883Z",
+      "lastModifiedBy": "fCBQr99gKAalBCoM7aw0GIJtx032",
+      "lastModifiedDate": "2018-11-29T14:23:34.864Z"
+    },
+    "active": true,
+    "answer": "<p>untuk virtual office paket silver dan gold perbedaannya hanya di fasilitasnya saja.</p><p>kalau untuk silver fasilitasnya alamat kantor, terima surat masuk, fax masuk, dan telp masuk,</p><p>kalau untuk yang gold fasiitasnya itu , alamat kantor, surat masuk, dan untuk telp masuk dari klien bapak/ibu bisa langsung kami sambungkan ke no hp bapak/ibu dengan biaya cas 3000/menit.</p>",
+    "id": 1543501397888,
+    "question": "8. Kalau Bedanya Virtual Office silver dan Gold apa ?"
   }
 ]

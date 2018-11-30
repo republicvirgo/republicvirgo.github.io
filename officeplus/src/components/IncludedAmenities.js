@@ -7,9 +7,11 @@ class IncludedAmenities extends Component {
       <div>
         <h3 className="ui header" align="left">
           <span style={{ fontSize: "1.5em" }}>Included Amenities</span>
+          {/*
           <div className="sub header">
             You focus on growing your business, we take care of the rest.
           </div>
+          */}
         </h3>
 
         <div className="ui segment">
