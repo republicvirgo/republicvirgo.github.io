@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 import ProductBanner from "./ProductBanner";
 import ProfileBanner from "./ProfileBanner";
@@ -11,6 +12,10 @@ class Home extends Component {
   render() {
     return (
       <div className="ui container">
+        <Helmet>
+          <title>Officeplus Home</title>
+        </Helmet>
+
         <ProfileBanner />
 
         <div>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 import cpMap from "../assets/images/cpmap.jpg";
 import ecMap from "../assets/images/ecmap.jpg";
@@ -10,6 +11,10 @@ class Location extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Officeplus Location</title>
+        </Helmet>
+
         <Segment vertical>
           <Container text>
             <Header as="h3" style={{ fontSize: "1.5em" }}>

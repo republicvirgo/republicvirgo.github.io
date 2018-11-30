@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
+
 import { Link } from "react-router-dom";
 
 import { Icon, Table, Grid } from "semantic-ui-react";
@@ -14,6 +16,10 @@ class VirtualOffice extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Officeplus Virtual Office</title>
+        </Helmet>
+
         <div className="ui container">
           <h3 className="ui header" align="left">
             <span style={{ fontSize: "1.5em" }}>Virtual Office</span>
@@ -555,7 +561,6 @@ class VirtualOffice extends Component {
             </Grid.Column>
           </Grid>
         </div>
-
         <div className="ui container">
           {componentSetting.map(cs =>
             cs.cProductList2 ? (

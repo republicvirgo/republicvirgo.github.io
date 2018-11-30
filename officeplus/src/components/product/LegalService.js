@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 import { Icon, Table } from "semantic-ui-react";
 
@@ -13,6 +14,10 @@ class LegalService extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Officeplus Legal Service</title>
+        </Helmet>
+
         <div className="ui container">
           <h3 className="ui header" align="left">
             <span style={{ fontSize: "1.5em" }}>Legal Service</span>

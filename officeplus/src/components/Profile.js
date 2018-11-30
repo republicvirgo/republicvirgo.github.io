@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
+
 import { Link } from "react-router-dom";
 
 import opCp7 from "../assets/images/officeplusCP/7.jpg";
@@ -18,6 +20,10 @@ class Profile extends Component {
   render() {
     return (
       <div className="row">
+        <Helmet>
+          <title>Officeplus Profile</title>
+        </Helmet>
+
         <div
           text
           className="container-fluid dimmable"

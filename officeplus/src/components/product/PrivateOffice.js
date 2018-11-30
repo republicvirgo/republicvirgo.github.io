@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
+
 import { Link } from "react-router-dom";
 
 import { Icon, Table, Grid } from "semantic-ui-react";
@@ -14,6 +16,10 @@ class PrivateOffice extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Officeplus Private Office</title>
+        </Helmet>
+
         <div className="ui container">
           <h3 className="ui header" align="left">
             <span style={{ fontSize: "1.5em" }}>Private Office</span>

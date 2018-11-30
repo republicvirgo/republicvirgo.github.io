@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
+
 import { Link } from "react-router-dom";
 
 import { Icon, Table } from "semantic-ui-react";
@@ -14,6 +16,10 @@ class ClassRoom extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Officeplus Class Room</title>
+        </Helmet>
+
         <div className="ui container">
           <h3 className="ui header" align="left">
             <span style={{ fontSize: "1.5em" }}>Class Room</span>

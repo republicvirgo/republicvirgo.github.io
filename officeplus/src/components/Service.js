@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 import ProductList from "./ProductList";
 import IncludedAmenities from "./IncludedAmenities";
@@ -12,6 +13,10 @@ class Service extends Component {
   render() {
     return (
       <div className="ui container">
+        <Helmet>
+          <title>Officeplus Service</title>
+        </Helmet>
+
         <ProductList />
 
         <div>
